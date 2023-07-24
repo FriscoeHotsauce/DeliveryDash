@@ -1,0 +1,2092 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32684 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Projects/Delivery Dash
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+65091
+Successfully changed project path to: C:/Projects/Delivery Dash
+C:/Projects/Delivery Dash
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11588] Host "[IP] 192.168.0.125 [Port] 0 [Flags] 2 [Guid] 2525466761 [EditorId] 2525466761 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I255MKF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11588] Host "[IP] 192.168.0.125 [Port] 0 [Flags] 2 [Guid] 2525466761 [EditorId] 2525466761 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I255MKF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 53.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/Delivery Dash/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   NVIDIA
+    VRAM:     8001 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.008821 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 54.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Domain Reload Profiling:
+	ReloadAssembly (651ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003513 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 43.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.842 seconds
+Domain Reload Profiling:
+	ReloadAssembly (843ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (656ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (370ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (1.8 MB). Loaded Objects now: 2491.
+Memory consumption went from 189.4 MB to 187.6 MB.
+Total: 2.672400 ms (FindLiveObjects: 0.184000 ms CreateObjectMapping: 0.099700 ms MarkObjects: 2.037900 ms  DeleteObjects: 0.350200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1647048.615970 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SkyDome.fbx
+  artifactKey: Guid(1340630fb7a3267499177be33f281f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SkyDome.fbx using Guid(1340630fb7a3267499177be33f281f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7632707271555f34b4d198715e96f3') in 0.165824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Room_05_Convex.asset
+  artifactKey: Guid(5a338528cf5b08d4598f35872e29074f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Room_05_Convex.asset using Guid(5a338528cf5b08d4598f35872e29074f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af32588a5616a4ab6c7c173a42bf564') in 0.012416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 1.asset
+  artifactKey: Guid(627522f5e6aa91846a65499ae2c63c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 1.asset using Guid(627522f5e6aa91846a65499ae2c63c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c85c69fa986241688e6d8ec2d9c36f') in 0.024278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Door_01_Convex 1.asset
+  artifactKey: Guid(7b840effc789eac48b495d9c49c25e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Door_01_Convex 1.asset using Guid(7b840effc789eac48b495d9c49c25e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c333c7888d512053d3c05d5d006a99a') in 0.013009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_Tower_01.fbx
+  artifactKey: Guid(d50524bd15d611749b162ee41810320c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_Tower_01.fbx using Guid(d50524bd15d611749b162ee41810320c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d99ac9a524ada42b43a08d14e1210c9') in 0.015415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 4.asset
+  artifactKey: Guid(ef629aebeb7451d44884bf351177d147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_01_Convex 4.asset using Guid(ef629aebeb7451d44884bf351177d147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f5ec29eb2d3abe343e3432d09f4800') in 0.019904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_Corner_01.fbx
+  artifactKey: Guid(ddc22d95e8ffc4e409645a2aea0abaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_Corner_01.fbx using Guid(ddc22d95e8ffc4e409645a2aea0abaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44b1beedf3bd6edade23e5f931cc955') in 0.012991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_End_Flat_01.fbx
+  artifactKey: Guid(8314e5d7a45aad74e9126058c89f4713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_End_Flat_01.fbx using Guid(8314e5d7a45aad74e9126058c89f4713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5a48c94d4d6393b77c835463167d5b') in 0.018425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_Roof_Single_01_Convex.asset
+  artifactKey: Guid(85ba1ccb2372159438ce83a327c0d646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_Roof_Single_01_Convex.asset using Guid(85ba1ccb2372159438ce83a327c0d646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5244abfcdc6934bbb8b56ffb125ee4e5') in 0.023420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_Door_01_Convex.asset
+  artifactKey: Guid(2935c2684bb0fca45abf1a24167e421c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_Door_01_Convex.asset using Guid(2935c2684bb0fca45abf1a24167e421c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4391b55669fba21f0b032684fc3e79') in 0.013437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_End_02.fbx
+  artifactKey: Guid(f6a87e3e9aa8258428dc646238713ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_End_02.fbx using Guid(f6a87e3e9aa8258428dc646238713ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daff3ec22a57654c8295b1d449aaa7c0') in 0.015656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Base_02_Convex.asset
+  artifactKey: Guid(735482c9f25205e48aa438d7db046e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Base_02_Convex.asset using Guid(735482c9f25205e48aa438d7db046e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bedc69a84ec8f87586e678c73143ff5') in 0.011020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_01_Convex.asset
+  artifactKey: Guid(ae15e93c146ff6140b650be7b09dcdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_01_Convex.asset using Guid(ae15e93c146ff6140b650be7b09dcdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8140bc05c2c1a8934d0bf2a6e7f3d3') in 0.019086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Base_Circle_03_Convex.asset
+  artifactKey: Guid(9ca3ddb9bd6c85d44a9b1ffe0281f20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Base_Circle_03_Convex.asset using Guid(9ca3ddb9bd6c85d44a9b1ffe0281f20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1525ae55ef23b807829eafbbf87971e2') in 0.011551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_03.fbx
+  artifactKey: Guid(9b50f4188ca0d8b44b0adf5a014d9600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_03.fbx using Guid(9b50f4188ca0d8b44b0adf5a014d9600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1c6d0b50a176e778bbf2b49997a889') in 0.019931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Room_02.fbx
+  artifactKey: Guid(8fd12456c7c28ae44b9c517b814a6707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Room_02.fbx using Guid(8fd12456c7c28ae44b9c517b814a6707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4808777ecfbec577520220124d54c2cc') in 0.013057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Room_01_Convex.asset
+  artifactKey: Guid(fc95fa7f0799d4144839d5c43a7e37af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Room_01_Convex.asset using Guid(fc95fa7f0799d4144839d5c43a7e37af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496997c4fff37ef63666c8c3b4740832') in 0.015595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_Roof_End_Flat_01.fbx
+  artifactKey: Guid(4349a7287f122c64d814928c624315b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_Roof_End_Flat_01.fbx using Guid(4349a7287f122c64d814928c624315b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22108ec338ad9285ca83715d20661e99') in 0.014089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_Platform_02.fbx
+  artifactKey: Guid(364d123304340994b8b50760844bb9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_Platform_02.fbx using Guid(364d123304340994b8b50760844bb9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313846e812bb39b6dea5ef0e989d13d7') in 0.014814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_Platform_01.fbx
+  artifactKey: Guid(5b42dbe2287d0f649aec06c0aaef8929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_Platform_01.fbx using Guid(5b42dbe2287d0f649aec06c0aaef8929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e737e7bed1064fcf9484d7787917b5') in 0.013147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_02.fbx
+  artifactKey: Guid(6c1c210683e90a84590d202eb90786e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_02.fbx using Guid(6c1c210683e90a84590d202eb90786e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0eb208e9f1b71d1796b8667868e0bc') in 0.016928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_House_02_Convex.asset
+  artifactKey: Guid(3dca447c69ded004588ea84ab16b8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_House_02_Convex.asset using Guid(3dca447c69ded004588ea84ab16b8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63c0f1761c868a0068427bed97194cd') in 0.010342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Shanty_Roof_02_Convex.asset
+  artifactKey: Guid(fb8e6ec3994608c4ea4484f28785dc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Shanty_Roof_02_Convex.asset using Guid(fb8e6ec3994608c4ea4484f28785dc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a54aabb8649941690f48626900850f') in 0.015177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Stairs_01_Convex.asset
+  artifactKey: Guid(3c80457fdcdd5c840a0bf5a9eb10e11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Stairs_01_Convex.asset using Guid(3c80457fdcdd5c840a0bf5a9eb10e11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1211a1d9cf6a12f8c31ad59d799f29d') in 0.010652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Arch_02_Convex 1.asset
+  artifactKey: Guid(0294669e1c5fcab40811c43d1ad67b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Arch_02_Convex 1.asset using Guid(0294669e1c5fcab40811c43d1ad67b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87a4e6ecc646ea33982009b3f414285') in 0.029152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Shanty_Base_01.fbx
+  artifactKey: Guid(03607e5f758b8724c8aabb6a4ef57b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Shanty_Base_01.fbx using Guid(03607e5f758b8724c8aabb6a4ef57b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adc53bafa38e28a419e61dded42c8d1') in 0.013533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_End_Flat_01_Convex.asset
+  artifactKey: Guid(dfbbaf01c5962bf448f8a37d8616e65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_End_Flat_01_Convex.asset using Guid(dfbbaf01c5962bf448f8a37d8616e65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74b436729fcc11959dc7f8d94147fbe') in 0.010422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Shanty_Preset_01.fbx
+  artifactKey: Guid(c6c014d2050267b44b5f1f53274ec549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Shanty_Preset_01.fbx using Guid(c6c014d2050267b44b5f1f53274ec549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b090c04441ea959ba1f92d7af61bb66') in 0.014152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Wall_01_Convex.asset
+  artifactKey: Guid(e54dd41c5c186a5429bb78fb4d465853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Wall_01_Convex.asset using Guid(e54dd41c5c186a5429bb78fb4d465853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2403e2128455002533c3b62d7ed6d6') in 0.012274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Room_01_Convex.asset
+  artifactKey: Guid(fde0982bb87d5284188fe9c412c69f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Room_01_Convex.asset using Guid(fde0982bb87d5284188fe9c412c69f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a104d3c6a828dcd59f79440f50d637ae') in 0.010517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_Stairs_01_Convex.asset
+  artifactKey: Guid(4f73b810e123ce2429697e30436f43ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_Stairs_01_Convex.asset using Guid(4f73b810e123ce2429697e30436f43ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f30edf6fbfd1cc21b3cb114de3abd76') in 0.011847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Arch_01_Convex 1.asset
+  artifactKey: Guid(3789d2d79be0f3a4398c8ef7e5113844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Arch_01_Convex 1.asset using Guid(3789d2d79be0f3a4398c8ef7e5113844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd768d4207b724d09d33cf6424a8fb44') in 0.024073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Base_Circle_04.fbx
+  artifactKey: Guid(4b2d0fb8654cc88478b04e948e4ed52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Base_Circle_04.fbx using Guid(4b2d0fb8654cc88478b04e948e4ed52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027e1e58ddc7fde259ee2a80ec6addfe') in 0.012579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_Stairs_Curved_01_Convex.asset
+  artifactKey: Guid(2a72318990b8de04bb629661f09900a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_Stairs_Curved_01_Convex.asset using Guid(2a72318990b8de04bb629661f09900a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6191c26cabfd6e65bbcbbf19279188') in 0.010326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_03_Convex.asset
+  artifactKey: Guid(c1e4d9b5d3dc54b49b73863d1e8178e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Hall_Room_03_Convex.asset using Guid(c1e4d9b5d3dc54b49b73863d1e8178e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5c48ca244bf6ff6444cb9e2bdc74c3') in 0.011492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Door_03.fbx
+  artifactKey: Guid(24865e219cf6e094892ebbde19e23d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Door_03.fbx using Guid(24865e219cf6e094892ebbde19e23d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9deb011909e5cc56dd67509d2c58a9f') in 0.013206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Door_02_Convex.asset
+  artifactKey: Guid(4c686d2646cf8b740a3996b2f274a437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Fort_Door_02_Convex.asset using Guid(4c686d2646cf8b740a3996b2f274a437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6db2059c9c614b2a499cc8c4415c16c') in 0.011445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Tower_03_Convex.asset
+  artifactKey: Guid(29a67c639f788f64d89cb08e20482872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Tower_03_Convex.asset using Guid(29a67c639f788f64d89cb08e20482872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dc27cfac9911b21637aaadea0d805c') in 0.012102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Roof_03_Convex.asset
+  artifactKey: Guid(a2c1e8c69fc284c42b797d402323804d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Roof_03_Convex.asset using Guid(a2c1e8c69fc284c42b797d402323804d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3364f275f4d2b948bc559ea1a4bc6733') in 0.010771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Dock_Stairs_01_Convex.asset
+  artifactKey: Guid(27605c94a4475aa45bc14b47892ea673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Dock_Stairs_01_Convex.asset using Guid(27605c94a4475aa45bc14b47892ea673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f42afbc85ea581996cbc710d9985b6b') in 0.011496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Dock_02_Convex.asset
+  artifactKey: Guid(21fa6b7711e5b38468a5b8c993880cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Dock_02_Convex.asset using Guid(21fa6b7711e5b38468a5b8c993880cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318db4d9544a5c06be20adfd1d3d384b') in 0.011691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Room_04_Convex.asset
+  artifactKey: Guid(89d6c91fabc33524a9c3f99673c8410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Room_04_Convex.asset using Guid(89d6c91fabc33524a9c3f99673c8410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39494e0f083442ed86eeac92dbb1f94e') in 0.010727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Hall_Front_01_Convex.asset
+  artifactKey: Guid(cda007f40966f1e478921d0c26410a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Hall_Front_01_Convex.asset using Guid(cda007f40966f1e478921d0c26410a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daeba7b9ee36fc14540726e77bae3c3') in 0.010278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_End_01_Convex.asset
+  artifactKey: Guid(813a8fcbd4e11d345915fdebe8d6a508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_End_01_Convex.asset using Guid(813a8fcbd4e11d345915fdebe8d6a508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b30e11b4133a0c7beeff28baf1d71c3') in 0.010759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Balcony_Corner_01_Convex.asset
+  artifactKey: Guid(ef71734b8ccc47b4a84966703514bbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Balcony_Corner_01_Convex.asset using Guid(ef71734b8ccc47b4a84966703514bbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce9d535a58a9e4814ddeaae7be1a7a9') in 0.011948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_Platform_02_Convex.asset
+  artifactKey: Guid(d0d32190b23a5b043bbfcdbcfcb523f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_Platform_02_Convex.asset using Guid(d0d32190b23a5b043bbfcdbcfcb523f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3c1c4fdcb23de2f2c48ada1020fc23') in 0.011409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Dock_Stairs_01.fbx
+  artifactKey: Guid(6061148fe4cbc7747a05436f7eafe587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Dock_Stairs_01.fbx using Guid(6061148fe4cbc7747a05436f7eafe587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412af627a81a82239114f76a0d2759c2') in 0.012011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Balcony_03.fbx
+  artifactKey: Guid(2ea88a668ca71024f81e8f421d68eedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Balcony_03.fbx using Guid(2ea88a668ca71024f81e8f421d68eedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f37e9fbcd8df62e92ff46149e9cd9de') in 0.016920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_02_Convex.asset
+  artifactKey: Guid(7e4cec334581a6f489fafc612f1e564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Sunshade_02_Convex.asset using Guid(7e4cec334581a6f489fafc612f1e564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7806c937d745842c8366d1f27933c6bf') in 0.010004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_House_01_Convex.asset
+  artifactKey: Guid(129f2e86fc9d2b74da137884ac14a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_House_01_Convex.asset using Guid(129f2e86fc9d2b74da137884ac14a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab317070cca784ffe21ae39fed1e507') in 0.012195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_Pole_01_Convex.asset
+  artifactKey: Guid(2b7571c742418b7449d610da47aae5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Mansion_Pole_01_Convex.asset using Guid(2b7571c742418b7449d610da47aae5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47a257bdf612d16b20689f8a1cdd7d9') in 0.012181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_Platform_01_Convex.asset
+  artifactKey: Guid(2879ccddfdc79934c9715e28ec872a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Rickety_Dock_Platform_01_Convex.asset using Guid(2879ccddfdc79934c9715e28ec872a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074c96aca38ad3c0d4753111ce769ea4') in 0.011080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Balcony_01.fbx
+  artifactKey: Guid(fa556cf57022ac3489a507da9d8738ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Balcony_01.fbx using Guid(fa556cf57022ac3489a507da9d8738ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff5d56c810a6ddaa3774ddb78090c89') in 0.015009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_05.fbx
+  artifactKey: Guid(c4ab0868c64addf41be41162d082de71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Room_Long_05.fbx using Guid(c4ab0868c64addf41be41162d082de71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e47a162f2c644aac9f2a2f372ed5d7') in 0.015046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Room_Short_01_Convex.asset
+  artifactKey: Guid(b8cf7660e6d02fa4e935218bd3354f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Room_Short_01_Convex.asset using Guid(b8cf7660e6d02fa4e935218bd3354f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c93d88f853a92be39f77ef0bdd6d6c5') in 0.010213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Roof_03.fbx
+  artifactKey: Guid(b939e3bed7c067f4fa34e432958b017c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Cuba_Roof_03.fbx using Guid(b939e3bed7c067f4fa34e432958b017c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73abc461b856ec8d9941020e07160d33') in 0.016743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Shanty_Preset_05_Convex.asset
+  artifactKey: Guid(0090cf66e24ed004f8bb4bcbace1ab71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Models/SM_Bld_Shanty_Preset_05_Convex.asset using Guid(0090cf66e24ed004f8bb4bcbace1ab71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b57b5d6ee4ca639c0cb49b8c0e233f') in 0.010204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.418620 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Materials/PolygonPirates_Material_01_C.mat
+  artifactKey: Guid(79bfdd834a23bf04d8ea380700c97ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Materials/PolygonPirates_Material_01_C.mat using Guid(79bfdd834a23bf04d8ea380700c97ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e604b9e5b7fa89678a89e83fbc3c65') in 0.033276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Materials/PolygonPirates_Material_04_A.mat
+  artifactKey: Guid(89a8c4d05aebfbd40ad71b8f56d3f20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Materials/PolygonPirates_Material_04_A.mat using Guid(89a8c4d05aebfbd40ad71b8f56d3f20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8ba5b625df78b31cf42a8ad7ebe79b') in 0.025218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Materials/PolygonPirates_Material_03_C.mat
+  artifactKey: Guid(1540fc37fe4429b4589aeed0285fd0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Materials/PolygonPirates_Material_03_C.mat using Guid(1540fc37fe4429b4589aeed0285fd0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0bf37c8d9fefa97d07962404017ad1') in 0.027263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.629894 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/FX/FX_Cannon_Smoke.prefab
+  artifactKey: Guid(bc45bb6342bf8eb45b5de1fc0c980f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/FX/FX_Cannon_Smoke.prefab using Guid(bc45bb6342bf8eb45b5de1fc0c980f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d134556b00cd33dc7b319f84d76686') in 0.048627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.692445 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Bag_Attachment_02.prefab
+  artifactKey: Guid(eedf28ace7a1d8c478fdcdce90692ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Bag_Attachment_02.prefab using Guid(eedf28ace7a1d8c478fdcdce90692ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5eb783f53f4d8f05cefbbd3c86f633') in 0.023330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Bottle_04.prefab
+  artifactKey: Guid(ace0bec95f69ee4408881b94beec4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Bottle_04.prefab using Guid(ace0bec95f69ee4408881b94beec4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d52ab40fff05c0f296756fb84daebd') in 0.021091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Candle_01.prefab
+  artifactKey: Guid(3b7fea9a60142b441881a77769d1523d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Candle_01.prefab using Guid(3b7fea9a60142b441881a77769d1523d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358d78ac3166f1068e512642d190a284') in 0.021320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Coins_04.prefab
+  artifactKey: Guid(b3bb07980d0cc224dac14439a9d0e47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Coins_04.prefab using Guid(b3bb07980d0cc224dac14439a9d0e47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6302c08d5ae70beaa179be8775b0cb') in 0.021087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Gem_03.prefab
+  artifactKey: Guid(e1dfdc62d151cdd4b9beddbbf0034d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Gem_03.prefab using Guid(e1dfdc62d151cdd4b9beddbbf0034d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092f96e1b68bdc457c43b937a98dfcdf') in 0.021457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Potion_Attachment_01.prefab
+  artifactKey: Guid(5ae6393b507e87748b3c2b68d4316830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Potion_Attachment_01.prefab using Guid(5ae6393b507e87748b3c2b68d4316830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8bad6518f957fd6c1ab446fd269ff5') in 0.020593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Skull_01.prefab
+  artifactKey: Guid(bddd1f0c0f88b2347a315edd5b2ebccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Skull_01.prefab using Guid(bddd1f0c0f88b2347a315edd5b2ebccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35de25b6d9cdf323a6f084cd717af61') in 0.022408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Potion_01.prefab
+  artifactKey: Guid(5f6143567e54ef441b3975413c180a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Potion_01.prefab using Guid(5f6143567e54ef441b3975413c180a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c566eb472505224183ac1b71670c2951') in 0.059597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Bomb_Attachment_01.prefab
+  artifactKey: Guid(9efc28a4164868a45b28c1e4e208e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Items/SM_Item_Bomb_Attachment_01.prefab using Guid(9efc28a4164868a45b28c1e4e208e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486b7b34d1108265c2654348cc859bbf') in 0.078473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.595185 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Barrel_03.prefab
+  artifactKey: Guid(4f09f22bd0388634ca4fba2e3f689ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Barrel_03.prefab using Guid(4f09f22bd0388634ca4fba2e3f689ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4550502f1c592bc1c326416974055dbf') in 0.017631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Barrel_Half_01.prefab
+  artifactKey: Guid(bdfbbe037a9a3ce47933e26169b92e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Barrel_Half_01.prefab using Guid(bdfbbe037a9a3ce47933e26169b92e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9861fc1c54068ef36eb3ce227377ff') in 0.019445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Cannon_01.prefab
+  artifactKey: Guid(04e5ad3b4d0e23842a04b203a7ef5e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Cannon_01.prefab using Guid(04e5ad3b4d0e23842a04b203a7ef5e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77147c5c0921a9af855e499bf20b475b') in 0.019269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Cannon_03.prefab
+  artifactKey: Guid(acf39c14ef903c34f95fc1028f98c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Cannon_03.prefab using Guid(acf39c14ef903c34f95fc1028f98c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d8a392284ce94d5c58c909d7aa4f7d') in 0.020284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_CannonBalls_03.prefab
+  artifactKey: Guid(31806e93ca5f1314ea91dfc920a48b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_CannonBalls_03.prefab using Guid(31806e93ca5f1314ea91dfc920a48b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70373f723902a326f19903a25460d05') in 0.021004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Chimney_01.prefab
+  artifactKey: Guid(a7b2d2b39fd448040aaa9dfc5083d017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Chimney_01.prefab using Guid(a7b2d2b39fd448040aaa9dfc5083d017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ca6412b07aa8dd6ce0895314914147') in 0.020683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Crane_01.prefab
+  artifactKey: Guid(19bef9513e946dc429aebfe8bd8a21d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Crane_01.prefab using Guid(19bef9513e946dc429aebfe8bd8a21d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3033f5139b9596c44ed00c27b9729fe4') in 0.020129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Crate_01.prefab
+  artifactKey: Guid(874b300860c362f4e868ac3dafd9ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Crate_01.prefab using Guid(874b300860c362f4e868ac3dafd9ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59291c21250c655a6dd32d8bd980f09a') in 0.020376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Debris_03.prefab
+  artifactKey: Guid(690bdb87eb11e0342a5c4384b915c9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Debris_03.prefab using Guid(690bdb87eb11e0342a5c4384b915c9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b50d46d1f4f2caeac0ff29ec4c890c') in 0.020299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Fence_01.prefab
+  artifactKey: Guid(2e767aec4381a214f902df4ac3e94fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Fence_01.prefab using Guid(2e767aec4381a214f902df4ac3e94fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9fe479e42e4e2fe09c968e962e7ab6') in 0.020418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_FishingRod_01.prefab
+  artifactKey: Guid(c9fc547a7fe164146a5e9db2eacde169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_FishingRod_01.prefab using Guid(c9fc547a7fe164146a5e9db2eacde169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a907901d67fa6e8f25d94e81ceff130b') in 0.020422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Grave_01.prefab
+  artifactKey: Guid(6cb81672af886f54c85a9b6454f24e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Grave_01.prefab using Guid(6cb81672af886f54c85a9b6454f24e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5569b057cc5e5d0d146621d7f6d8c1') in 0.020640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Grave_05.prefab
+  artifactKey: Guid(8bc545a54a2b88f4695aebfc98a97813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Grave_05.prefab using Guid(8bc545a54a2b88f4695aebfc98a97813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c374c59ba0b97927c504c0ddedd4c28') in 0.020012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Liferaft_01.prefab
+  artifactKey: Guid(148f2b250a2bf024fb42904535c80be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Liferaft_01.prefab using Guid(148f2b250a2bf024fb42904535c80be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd9d37e84da98cbe0d1caf00777f94f') in 0.022688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Planter_01.prefab
+  artifactKey: Guid(5aca5137f02c6a24384afa5606a76365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Planter_01.prefab using Guid(5aca5137f02c6a24384afa5606a76365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bdcc4fab9e925bfdd01413a4ed73af') in 0.021645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Rope_Fence_01.prefab
+  artifactKey: Guid(911339a7f13acc54a9546d61196f8f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Rope_Fence_01.prefab using Guid(911339a7f13acc54a9546d61196f8f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e4990c876b770d0baf2563c4593b88') in 0.022967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Sack_03.prefab
+  artifactKey: Guid(a1032c72155a3594c83d94659d57b3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Sack_03.prefab using Guid(a1032c72155a3594c83d94659d57b3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef3d8077379ef5a8889247e44618e0b') in 0.021705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Scrub_Mop_01.prefab
+  artifactKey: Guid(5adbf53cb42c18f418fc05871b5fbac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Scrub_Mop_01.prefab using Guid(5adbf53cb42c18f418fc05871b5fbac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695256b19691045061912bcbd2ac2200') in 0.021124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Pot_01.prefab
+  artifactKey: Guid(0e491ed641e91954d82c1ab1b9fbfc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Pot_01.prefab using Guid(0e491ed641e91954d82c1ab1b9fbfc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779970c30e62d2c4a9042e1cafcef236') in 0.020231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Shipwreck_02.prefab
+  artifactKey: Guid(4982275e186455342a472e320445fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Shipwreck_02.prefab using Guid(4982275e186455342a472e320445fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f8d5283c7b8574b890f8cbbc4ca6f1') in 0.027410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Skeleton_Ground_01.prefab
+  artifactKey: Guid(7d93cb97b31787a4bac40d7af43bcce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Skeleton_Ground_01.prefab using Guid(7d93cb97b31787a4bac40d7af43bcce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63e21317c309786000610efd6e95e0c') in 0.020650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Skeleton_Cage_02.prefab
+  artifactKey: Guid(f6384cdad3996184380fd1d153d69e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Skeleton_Cage_02.prefab using Guid(f6384cdad3996184380fd1d153d69e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f13f0c5f1e7af6df943fd22d53ed57e') in 0.021331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Stall_Cloth_03.prefab
+  artifactKey: Guid(db23befc3822099498dae9e0d53844b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Stall_Cloth_03.prefab using Guid(db23befc3822099498dae9e0d53844b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a78b33b2df10684a51f177b8b60b4c') in 0.020515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Skeleton_Ground_02.prefab
+  artifactKey: Guid(47e39c5ca3f93ec4bae51f15c750f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Skeleton_Ground_02.prefab using Guid(47e39c5ca3f93ec4bae51f15c750f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07df24b8cbdf3ff272f0c1c6f7107749') in 0.020437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_TreasurePile_01.prefab
+  artifactKey: Guid(59c9a32041515f74d84432bfd84c16f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_TreasurePile_01.prefab using Guid(59c9a32041515f74d84432bfd84c16f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b3db7f6cd880c4c30656206e665943') in 0.019184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Table_03.prefab
+  artifactKey: Guid(046f73a88c5551740888c2cd6f7cbb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Table_03.prefab using Guid(046f73a88c5551740888c2cd6f7cbb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef54967ad59e793cb2dea18c9ed6e938') in 0.019464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Window_04.prefab
+  artifactKey: Guid(5eb83018eb9f6554bb394b1fe1600ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Window_04.prefab using Guid(5eb83018eb9f6554bb394b1fe1600ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd582edff31233c142fd61434480cd03b') in 0.022290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Stool_02.prefab
+  artifactKey: Guid(309761f1c4cc5a842bbc21c45cb9a941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Stool_02.prefab using Guid(309761f1c4cc5a842bbc21c45cb9a941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5570cbd49c0436bfa0fbfb7c94db4d81') in 0.022905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Cannon_LowDetail_01.prefab
+  artifactKey: Guid(64a4d0b5e9c6176489e182a6ad0bbde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Cannon_LowDetail_01.prefab using Guid(64a4d0b5e9c6176489e182a6ad0bbde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbc533d8bf793af86c26bed9fc8c1ae') in 0.022469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Raft_01.prefab
+  artifactKey: Guid(004290e5228ae604bb73d33c8b53a0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Raft_01.prefab using Guid(004290e5228ae604bb73d33c8b53a0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61be10e715eab0b1d12f3602f72a48a0') in 0.022496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Skeleton_Chest_01.prefab
+  artifactKey: Guid(aacf86b9366655847acbcb59595da0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Skeleton_Chest_01.prefab using Guid(aacf86b9366655847acbcb59595da0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac2fd96321ffa48cf6115d31e3123d8') in 0.022658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_RoofFence_01.prefab
+  artifactKey: Guid(a26e427e53e3c1941919ea68425bafd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_RoofFence_01.prefab using Guid(a26e427e53e3c1941919ea68425bafd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5341b220433c08abafcc202cc8747c04') in 0.023231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Shanty_BuildingAttachment_01.prefab
+  artifactKey: Guid(4feddc6b0e53fdc4186cf18bf2c97608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Shanty_BuildingAttachment_01.prefab using Guid(4feddc6b0e53fdc4186cf18bf2c97608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b95867bd4580ce7c6635dd4a99ea3d1') in 0.024390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Gallows_01.prefab
+  artifactKey: Guid(5c6dd349b8974124888fc3cd6cdf6507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Gallows_01.prefab using Guid(5c6dd349b8974124888fc3cd6cdf6507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568c2177a66bab20e9ee7807360a55cf') in 0.021470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Campfire_01.prefab
+  artifactKey: Guid(14fccbae209fdf64bbe5c99774a871e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Campfire_01.prefab using Guid(14fccbae209fdf64bbe5c99774a871e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5642ed48835fea43ce6f84f673702a2') in 0.022491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Stack_03.prefab
+  artifactKey: Guid(7fddda702d68af146958103be211e78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Stack_03.prefab using Guid(7fddda702d68af146958103be211e78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d55932e68feb11e05a785f0b31e4df7') in 0.022944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Crane_03.prefab
+  artifactKey: Guid(ad143900d84ce844993be56d509c6857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Crane_03.prefab using Guid(ad143900d84ce844993be56d509c6857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb37fdd00083354d51c850a6c371022') in 0.023502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Shanty_BuildingAttachment_04.prefab
+  artifactKey: Guid(063abaabc8ac615449855b0fd06f5963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Props/SM_Prop_Shanty_BuildingAttachment_04.prefab using Guid(063abaabc8ac615449855b0fd06f5963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c02ebfb67f392d17730d34f8643aa1') in 0.020441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.839727 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Medium_01_Hull_Pirate_Attachments.prefab
+  artifactKey: Guid(08fa080060d162343b94ac13ffbe8f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Medium_01_Hull_Pirate_Attachments.prefab using Guid(08fa080060d162343b94ac13ffbe8f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bab6e1a94999fe82ecfe6d6bcbd6b1') in 0.023355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Small_01_Hull.prefab
+  artifactKey: Guid(0254fc5d92c4fc049b7ffc176526b2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Small_01_Hull.prefab using Guid(0254fc5d92c4fc049b7ffc176526b2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadd599e1139971e5c2a582d49d51a11') in 0.019605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Bare.prefab
+  artifactKey: Guid(00f2a498c7e05f64ca529c8b767d9bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Bare.prefab using Guid(00f2a498c7e05f64ca529c8b767d9bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad37a2d4079ca65507369abeb370d5be') in 0.021695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Pirate_Bare.prefab
+  artifactKey: Guid(831807539d583624fbfff3c147b19906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Pirate_Bare.prefab using Guid(831807539d583624fbfff3c147b19906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0dadb88d826f0cf3233e876d1f1a97') in 0.019877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Upsized_Pirate.prefab
+  artifactKey: Guid(2ca27c5c2edad5e42a11807acb7a0844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Upsized_Pirate.prefab using Guid(2ca27c5c2edad5e42a11807acb7a0844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af79428e83bed29c59a118d01c17dcac') in 0.071919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Extra_Gun_01_Pirate.prefab
+  artifactKey: Guid(8366d4254621ee142804ee460119165f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Extra_Gun_01_Pirate.prefab using Guid(8366d4254621ee142804ee460119165f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52c373a824e596c7b243501b6fe5840') in 0.029651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Pirate_Attachments.prefab
+  artifactKey: Guid(546543ec887821441bb4deff0e363c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Pirate_Attachments.prefab using Guid(546543ec887821441bb4deff0e363c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82b0b621cdd52d0b14607f3e14eb9fc') in 0.044790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Upsized.prefab
+  artifactKey: Guid(aa8432d52325aa74685b2677529486b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Vehicles/SM_Veh_Boat_Warship_01_Hull_Upsized.prefab using Guid(aa8432d52325aa74685b2677529486b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3230b1905fd881dbbbf916e857e2bc0d') in 0.051902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.034667 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_BlunderBuss_02.prefab
+  artifactKey: Guid(f307c758f9f292242bdcae726ecbe722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_BlunderBuss_02.prefab using Guid(f307c758f9f292242bdcae726ecbe722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f171ea1b04da2fd2e357f1a41b32d41') in 0.023393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Cutlass_02.prefab
+  artifactKey: Guid(253766d71815aa24d884ed3cf0e6eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Cutlass_02.prefab using Guid(253766d71815aa24d884ed3cf0e6eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fc49fcdca565d0a31833d97b146627') in 0.019476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Cutlass_04.prefab
+  artifactKey: Guid(a5dd16602a9deb242a29655a3728e6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Cutlass_04.prefab using Guid(a5dd16602a9deb242a29655a3728e6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d9f091b9bfeeef462af240930096a3') in 0.019410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_MusketPistol_02.prefab
+  artifactKey: Guid(95e52cd5f55fdfa49abb0eb942d2fa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_MusketPistol_02.prefab using Guid(95e52cd5f55fdfa49abb0eb942d2fa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100473fd18530a6dfa50141489eb0c3e') in 0.020790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_MusketPistol_05.prefab
+  artifactKey: Guid(a2d1d373f89e9b54291dd8ca4706e158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_MusketPistol_05.prefab using Guid(a2d1d373f89e9b54291dd8ca4706e158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae444bde100e1ead5092688f472a3c79') in 0.021464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Pistol_01.prefab
+  artifactKey: Guid(29706bab6f351e64982fca9af5aa9851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Pistol_01.prefab using Guid(29706bab6f351e64982fca9af5aa9851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba82ce85207906e6cf5559f62d4e7e8b') in 0.020017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Pistol_DoubleBarrel_01.prefab
+  artifactKey: Guid(d279b87d89327b749b477d29b966fd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Pistol_DoubleBarrel_01.prefab using Guid(d279b87d89327b749b477d29b966fd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c791474958536f0bd8f13947cb2770b') in 0.020649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Sabre_02_Sheath.prefab
+  artifactKey: Guid(7c18ba5bc74bfce4e8fb37b884a42e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Sabre_02_Sheath.prefab using Guid(7c18ba5bc74bfce4e8fb37b884a42e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ba53ce47c4be0f4397ad9fb6cc2caf') in 0.020536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Shortsword_02.prefab
+  artifactKey: Guid(2257b8e9e5285ef4dbf2d3cecab0309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Shortsword_02.prefab using Guid(2257b8e9e5285ef4dbf2d3cecab0309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f001541519b1edd1bf166a37033068c') in 0.023995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_MusketPistol_04_Separate.prefab
+  artifactKey: Guid(7b27eab680b1fbb449f08de89301c2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_MusketPistol_04_Separate.prefab using Guid(7b27eab680b1fbb449f08de89301c2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ede9c49f71aa82913caa3ccdf7efe2b') in 0.023961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Sabre_02.prefab
+  artifactKey: Guid(bb885bdbf06a44d49ab7813038fa9518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Weapons/SM_Wep_Sabre_02.prefab using Guid(bb885bdbf06a44d49ab7813038fa9518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d78976307e8e7377788c5586a5d8f94') in 0.024559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.468114 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Textures/Texture_01_C.png
+  artifactKey: Guid(2946b9233fafde1488dd3bf83cab38be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Textures/Texture_01_C.png using Guid(2946b9233fafde1488dd3bf83cab38be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9b5748121c16859b3dd7ac942d4a0c') in 0.045942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Textures/Texture_04_B.png
+  artifactKey: Guid(433174d60899cd9448650d4dcd2c4a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Textures/Texture_04_B.png using Guid(433174d60899cd9448650d4dcd2c4a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a21f8f293ba735d33220c000427856') in 0.014865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Textures/Texture_04_A.png
+  artifactKey: Guid(75fd15308c42fed4fbfa58bad74ddfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Textures/Texture_04_A.png using Guid(75fd15308c42fed4fbfa58bad74ddfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c89300aa9dd9341d2dec65e93cd7cd4') in 0.041247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Textures/Texture_03_C.png
+  artifactKey: Guid(a4e09ba2aa6238f4ea9a2ba7188cce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Textures/Texture_03_C.png using Guid(a4e09ba2aa6238f4ea9a2ba7188cce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724bc9737e18179cee28f74eec5c476e') in 0.010208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.712646 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Background_Island_03.prefab
+  artifactKey: Guid(bb62663e50547134f979e4d05974ee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Background_Island_03.prefab using Guid(bb62663e50547134f979e4d05974ee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d22591a3c5d40536b9dd5f628cb040') in 0.017799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Beach_01.prefab
+  artifactKey: Guid(fd7df8eb43bb03948b87690bd2ef2b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Beach_01.prefab using Guid(fd7df8eb43bb03948b87690bd2ef2b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde7791312122601c78c88575f474f5b') in 0.015981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Beach_03.prefab
+  artifactKey: Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Beach_03.prefab using Guid(f8ca1af5413cfec47ab975dd7f75ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f5e59e7187da83101e39a2c04289f2') in 0.016321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Beach_Piles_01.prefab
+  artifactKey: Guid(37d922e251b1fdb45b60981f1e4b16e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Beach_Piles_01.prefab using Guid(37d922e251b1fdb45b60981f1e4b16e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ce1bdca72009b32df32d0751c3e71e') in 0.017011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002649 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Fern_01.prefab
+  artifactKey: Guid(3fe3c9e8783966a4f8125576f7cfe7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Fern_01.prefab using Guid(3fe3c9e8783966a4f8125576f7cfe7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6317ca0102667f13f0f7e9497053145a') in 0.020750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Flowers_02.prefab
+  artifactKey: Guid(289536fb3806f9447a117b250647974d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Flowers_02.prefab using Guid(289536fb3806f9447a117b250647974d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6aabb764a87879250633192982ef97') in 0.017537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_GrassPatch_01.prefab
+  artifactKey: Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_GrassPatch_01.prefab using Guid(573aff33fc7399f4495992dfcd86f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2864da6bb656fcc50507d9cc469878') in 0.021707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_GroundLeaves_03.prefab
+  artifactKey: Guid(47345e15c55c26b45b02acadb66b1944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_GroundLeaves_03.prefab using Guid(47345e15c55c26b45b02acadb66b1944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462932715e3b363cb2be34bbb3bb7995') in 0.014773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_PalmTree_02.prefab
+  artifactKey: Guid(cc73a13bbda6a7f4ca14d0763f94fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_PalmTree_02.prefab using Guid(cc73a13bbda6a7f4ca14d0763f94fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bf13ae25cc04c7ec9967a83c5e7e0c') in 0.019580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Plants_01.prefab
+  artifactKey: Guid(b86675da3cb5f3c47baa515df44013b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Plants_01.prefab using Guid(b86675da3cb5f3c47baa515df44013b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408a769d0d1665141bbf5f8ce1eb86f7') in 0.015707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rock_03.prefab
+  artifactKey: Guid(3ee5a26aa7a392e4eb5055d9703e036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rock_03.prefab using Guid(3ee5a26aa7a392e4eb5055d9703e036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2924c525e2c6296ec9c91d49aff52365') in 0.014867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rock_Huge_03.prefab
+  artifactKey: Guid(e0c965224454eb34e84586d6fe313eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rock_Huge_03.prefab using Guid(e0c965224454eb34e84586d6fe313eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0382e160931a1e02b859936410a8ada1') in 0.015702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rock_Large_02.prefab
+  artifactKey: Guid(5bc229dfc40d9ae47be77c071dfa4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rock_Large_02.prefab using Guid(5bc229dfc40d9ae47be77c071dfa4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65985bddc6b653012ed5aa236488ba2e') in 0.015867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rock_Large_07.prefab
+  artifactKey: Guid(59c46909f95e9a94fae7eea9a6ddc7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rock_Large_07.prefab using Guid(59c46909f95e9a94fae7eea9a6ddc7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5a26c21c28845c06a1926627bef5bb') in 0.014974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rock_Large_010.prefab
+  artifactKey: Guid(6872f29794017c04cb0ae1e89e6828a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rock_Large_010.prefab using Guid(6872f29794017c04cb0ae1e89e6828a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953b9ea7ff5016ba4bab1d364204dc61') in 0.017145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rocks_01.prefab
+  artifactKey: Guid(a2fdfebba1c706e41b0fa8a819b914e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rocks_01.prefab using Guid(a2fdfebba1c706e41b0fa8a819b914e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d38a2403b21cf976582167f356c86b') in 0.015411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_SugarCane_02.prefab
+  artifactKey: Guid(5666d57f599f2a04383a26b03b4c2b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_SugarCane_02.prefab using Guid(5666d57f599f2a04383a26b03b4c2b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e31d7b36b0c4c146c4a9c1a7f3d6b4') in 0.016718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Tree_Base_02.prefab
+  artifactKey: Guid(dea130fa14f34fe4d9c01cc7f1e7f142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Tree_Base_02.prefab using Guid(dea130fa14f34fe4d9c01cc7f1e7f142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37029ca57cbde34d5ebf880dd7c193a4') in 0.022213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Tree_Dead_01.prefab
+  artifactKey: Guid(7bdfc15b94969874783c8029d8b918d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Tree_Dead_01.prefab using Guid(7bdfc15b94969874783c8029d8b918d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6ab9212cfaab42eb077eda84efcb6d') in 0.022080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Tree_Vines_01.prefab
+  artifactKey: Guid(509ce055e3e7b2e458b05260bdf87f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Tree_Vines_01.prefab using Guid(509ce055e3e7b2e458b05260bdf87f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeab856a9704f0e1c7f44da242efd7db') in 0.017200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Tree_Vines_05.prefab
+  artifactKey: Guid(7a0f2da323bd14e478d9c20dfb5dad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Tree_Vines_05.prefab using Guid(7a0f2da323bd14e478d9c20dfb5dad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd99b1e67ca4fec4a86f03f17e54048') in 0.018243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Plants_02.prefab
+  artifactKey: Guid(b97ef5c7e2d7767489174753925ca574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Plants_02.prefab using Guid(b97ef5c7e2d7767489174753925ca574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff27c8555ce9ee1cd9fccf7cbeaa131') in 0.018949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rocks_02.prefab
+  artifactKey: Guid(cfe5d370eb7adbd43bead7f2e91204b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Rocks_02.prefab using Guid(cfe5d370eb7adbd43bead7f2e91204b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8859f4d77e454495c5fdb58a98e9229') in 0.017538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Tree_Vines_04.prefab
+  artifactKey: Guid(d9a079c452b648a4cbefe15bb9c53316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/PolygonPirates/Prefabs/Environments/SM_Env_Tree_Vines_04.prefab using Guid(d9a079c452b648a4cbefe15bb9c53316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2081b192c985fa63cdb58bfa3ec70125') in 0.016361 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (833ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (648ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(ddfacb41c2c43e349a2c22d2d45bda77) path("Assets/Scripts/CampsiteRemover.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 2543.
+Memory consumption went from 186.1 MB to 184.4 MB.
+Total: 2.837500 ms (FindLiveObjects: 0.177700 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.294900 ms  DeleteObjects: 0.287600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002288 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (602ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1933 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 2547.
+Memory consumption went from 186.2 MB to 184.4 MB.
+Total: 2.370200 ms (FindLiveObjects: 0.158800 ms CreateObjectMapping: 0.065400 ms MarkObjects: 1.886900 ms  DeleteObjects: 0.258500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002472 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Domain Reload Profiling:
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (605ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 2551.
+Memory consumption went from 186.2 MB to 184.4 MB.
+Total: 2.476500 ms (FindLiveObjects: 0.184000 ms CreateObjectMapping: 0.093300 ms MarkObjects: 1.938500 ms  DeleteObjects: 0.260200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003075 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Domain Reload Profiling:
+	ReloadAssembly (776ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (594ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 2554.
+Memory consumption went from 186.2 MB to 184.4 MB.
+Total: 3.444500 ms (FindLiveObjects: 0.183000 ms CreateObjectMapping: 0.079000 ms MarkObjects: 2.906800 ms  DeleteObjects: 0.275000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002768 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (601ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (325ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 2557.
+Memory consumption went from 186.2 MB to 184.4 MB.
+Total: 2.522200 ms (FindLiveObjects: 0.180300 ms CreateObjectMapping: 0.078300 ms MarkObjects: 1.995600 ms  DeleteObjects: 0.266700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (801ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (622ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 2560.
+Memory consumption went from 186.2 MB to 184.4 MB.
+Total: 2.500500 ms (FindLiveObjects: 0.174800 ms CreateObjectMapping: 0.073900 ms MarkObjects: 1.971300 ms  DeleteObjects: 0.279800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (774ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 2563.
+Memory consumption went from 186.3 MB to 184.5 MB.
+Total: 3.167900 ms (FindLiveObjects: 0.215000 ms CreateObjectMapping: 0.112700 ms MarkObjects: 2.433400 ms  DeleteObjects: 0.405200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002310 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Domain Reload Profiling:
+	ReloadAssembly (802ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (621ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 2566.
+Memory consumption went from 186.3 MB to 184.6 MB.
+Total: 2.699100 ms (FindLiveObjects: 0.189400 ms CreateObjectMapping: 0.092600 ms MarkObjects: 2.144000 ms  DeleteObjects: 0.272100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.806 seconds
+Domain Reload Profiling:
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (626ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 2569.
+Memory consumption went from 186.3 MB to 184.6 MB.
+Total: 2.847400 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.191000 ms MarkObjects: 2.143500 ms  DeleteObjects: 0.300700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8907.611244 seconds.
+  path: Assets/Prefabs/Delivery Truck.prefab
+  artifactKey: Guid(c31614487076da5498daa8707aa6c85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Delivery Truck.prefab using Guid(c31614487076da5498daa8707aa6c85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c99f5ed5dbad0ecc75ceb479411ae9') in 0.179948 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002721 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 2572.
+Memory consumption went from 186.4 MB to 184.6 MB.
+Total: 3.110400 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.114900 ms MarkObjects: 2.441600 ms  DeleteObjects: 0.310000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Domain Reload Profiling:
+	ReloadAssembly (801ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (615ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 2575.
+Memory consumption went from 186.3 MB to 184.5 MB.
+Total: 2.510400 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.076300 ms MarkObjects: 1.996800 ms  DeleteObjects: 0.258200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 964.018172 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Mesh/Gas Station.fbx
+  artifactKey: Guid(a06171a43b0027d4e8fe7293e3fe1d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Mesh/Gas Station.fbx using Guid(a06171a43b0027d4e8fe7293e3fe1d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0ed69810af413253493746cfe401bf') in 0.341751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Mesh/Type 1.fbx
+  artifactKey: Guid(3c7dea396e11af84b9bd6953d0db735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Mesh/Type 1.fbx using Guid(3c7dea396e11af84b9bd6953d0db735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e84ed7a4a77fdf58115713f6ad2ec2e') in 0.200695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Mesh/Items.fbx
+  artifactKey: Guid(0b268a15f74ab264cbe71c6665167e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Mesh/Items.fbx using Guid(0b268a15f74ab264cbe71c6665167e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11577535fb7a9498b33ff21e06deaf32') in 0.295337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Skin 2.mat
+  artifactKey: Guid(789e18ca0a106eb4781872cc9dc99c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Skin 2.mat using Guid(789e18ca0a106eb4781872cc9dc99c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79171819bf5ab8be38be74e4513b123') in 0.009323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Plate.mat
+  artifactKey: Guid(99a24ef14bd6bea47a6e189a75f40647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Plate.mat using Guid(99a24ef14bd6bea47a6e189a75f40647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7e108a4cb5b01dc7dce5f782ef4a8a') in 0.009580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Lid.001.mat
+  artifactKey: Guid(574b88ea0f23a8f4a800610fcce2c0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Lid.001.mat using Guid(574b88ea0f23a8f4a800610fcce2c0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60850fab2097baf62652ff6a5053776f') in 0.009322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Grass.mat
+  artifactKey: Guid(66ca7b8673676064e9927f2334f664ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Grass.mat using Guid(66ca7b8673676064e9927f2334f664ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e40629da39fc7f112c88d52ee87eb38') in 0.013895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Wood 2.mat
+  artifactKey: Guid(f8563f82960b6fa4ab6cf4e11a639b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Wood 2.mat using Guid(f8563f82960b6fa4ab6cf4e11a639b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cca1a353caf66e8937dea907b2ad62a') in 0.009410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Shirt 2.mat
+  artifactKey: Guid(0390eb2caf0571546bb4c455f3ade4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Shirt 2.mat using Guid(0390eb2caf0571546bb4c455f3ade4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df2151d1b8ce02ce21351edd610da48') in 0.009836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Dirt.mat
+  artifactKey: Guid(f8ff652a2e271b141a8bccd26455dabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Dirt.mat using Guid(f8ff652a2e271b141a8bccd26455dabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf8af1a6dd2f3cdc854e0d0792bd52f') in 0.013779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Snow.mat
+  artifactKey: Guid(e992eee5fd9c81349848058c62089719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Snow.mat using Guid(e992eee5fd9c81349848058c62089719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0a1ca2f1d901a07c287c96ffc881e4') in 0.013466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Metal.mat
+  artifactKey: Guid(94c35248b37b8ce4e86bee87e504f1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Metal.mat using Guid(94c35248b37b8ce4e86bee87e504f1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8542de790b00a34303634e1c3ab8a08') in 0.009582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Paint 11.mat
+  artifactKey: Guid(78c4634de50e9a249b8f9d4a140eeda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Paint 11.mat using Guid(78c4634de50e9a249b8f9d4a140eeda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800fb2da7776bb19c031f48922e1539c') in 0.012658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Tag.001.mat
+  artifactKey: Guid(6f1730b9e370b0e42ae5c5454a4780ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Tag.001.mat using Guid(6f1730b9e370b0e42ae5c5454a4780ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a41517ab4fc5e48f11cad8338dc67c') in 0.009304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Boots.mat
+  artifactKey: Guid(765fb06605cc09a4092f0838ae643327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Boots.mat using Guid(765fb06605cc09a4092f0838ae643327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440544d74baaebf42880b59493029992') in 0.009442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Gas Station 2.mat
+  artifactKey: Guid(8b5d21b52146b6f49a5b3aad56d64f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Gas Station 2.mat using Guid(8b5d21b52146b6f49a5b3aad56d64f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82081b83f779893501b19ee44aac9e38') in 0.009455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Trunk.mat
+  artifactKey: Guid(d4a4cf37bf03f974984b366e85aabede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Trunk.mat using Guid(d4a4cf37bf03f974984b366e85aabede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd892aeaeba93b5f0b5e86a2b71f22330') in 0.010049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Grass 2.mat
+  artifactKey: Guid(8c3e616ac10bbe64ba0d74cb61520cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Grass 2.mat using Guid(8c3e616ac10bbe64ba0d74cb61520cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd70515ef0b7690e4e32c860b4bf37d') in 0.018999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Metal 1.mat
+  artifactKey: Guid(c707e6bfddd0dc34d89071ed23e16795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Metal 1.mat using Guid(c707e6bfddd0dc34d89071ed23e16795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cc4ed396b0399cfc329bdf71873ff8') in 0.008671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Skin 3.mat
+  artifactKey: Guid(67a2779aa29da434a92d85003c6a0ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Skin 3.mat using Guid(67a2779aa29da434a92d85003c6a0ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd128820530ae9c7f326c67e94638a321') in 0.014510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Tag.mat
+  artifactKey: Guid(373b8b1a1f2de24478fef70eac41dea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Tag.mat using Guid(373b8b1a1f2de24478fef70eac41dea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1330ac3dec5f5a8775aa74ccff1be598') in 0.011131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Button.mat
+  artifactKey: Guid(ae78ae37cd12ba047847e1e747da91cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Button.mat using Guid(ae78ae37cd12ba047847e1e747da91cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b027cbd12847b27d5634f066f444e3b9') in 0.010339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Label.mat
+  artifactKey: Guid(cae221e8013d68b48aa91f9d5f1749c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Label.mat using Guid(cae221e8013d68b48aa91f9d5f1749c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11eeb145b8ae2fbaf4db50f0896e71c') in 0.009948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Tile 1.mat
+  artifactKey: Guid(c4904e4432b31524da777b77b4cd4fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Tile 1.mat using Guid(c4904e4432b31524da777b77b4cd4fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61e3d86ab018e10dc1b3c627da955f5') in 0.009282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/UI.mat
+  artifactKey: Guid(73e2fa013c0f1244d84b8aef264660e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/UI.mat using Guid(73e2fa013c0f1244d84b8aef264660e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e222801cbfaf1dd599ce7bf9e40ad9') in 0.008538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Denim.mat
+  artifactKey: Guid(b0895d0613c18134f9227b6d08feb72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Denim.mat using Guid(b0895d0613c18134f9227b6d08feb72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc86ffa5cb12578d2042fc2257fef91') in 0.008492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Hair 8.mat
+  artifactKey: Guid(46aa9900e102cdf47b99fd076d32c458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Hair 8.mat using Guid(46aa9900e102cdf47b99fd076d32c458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0780eba95ded84ba5c5405017db123b9') in 0.014735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Rock.png
+  artifactKey: Guid(2742210421ff3c844a5434483d5bc9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Rock.png using Guid(2742210421ff3c844a5434483d5bc9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43f7308fce994f436ef2861fcc8184e') in 0.015877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Leaves 2.mat
+  artifactKey: Guid(0882076262288b44e958e453e3498d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Leaves 2.mat using Guid(0882076262288b44e958e453e3498d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4facc54db4b7431ccefd97474461db3') in 0.009728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Tile 2.mat
+  artifactKey: Guid(ce057cfcb8ca17847bce3529131d429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Tile 2.mat using Guid(ce057cfcb8ca17847bce3529131d429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963a124b6b24ac27913e9c5869fa92cb') in 0.009308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Skin 1.mat
+  artifactKey: Guid(f06f430bd08281041a117084db6adce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Skin 1.mat using Guid(f06f430bd08281041a117084db6adce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4beab0ea9f70d2f9ca349fec0323a5') in 0.009996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Wood.mat
+  artifactKey: Guid(a429616aea3494245a18d7ae743e9a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Wood.mat using Guid(a429616aea3494245a18d7ae743e9a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0977cec5dd548d8fd6531a4e9c9f9d2b') in 0.009346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Lid.mat
+  artifactKey: Guid(d8daa467bbc3de549957193e36c88cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Lid.mat using Guid(d8daa467bbc3de549957193e36c88cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16658872bedad8a9526f281192b7b74c') in 0.009958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Skin 5.mat
+  artifactKey: Guid(69ef4ddf8a1468643982e8bb54c44979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Skin 5.mat using Guid(69ef4ddf8a1468643982e8bb54c44979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbc5a9e683a8a53614cb109d541ed02') in 0.013697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Hair 1.mat
+  artifactKey: Guid(184de7a192f977d46beaa5c8ad8cb89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Hair 1.mat using Guid(184de7a192f977d46beaa5c8ad8cb89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4205a2f3f21f917bec4dc1dd16645b24') in 0.009720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Gas Tank.mat
+  artifactKey: Guid(4d684119822b65843ab528e03f53552e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Gas Tank.mat using Guid(4d684119822b65843ab528e03f53552e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4a9b8df6a4959dc5af91b6f7d423d7') in 0.014113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Tire.mat
+  artifactKey: Guid(7676f795b1e49694ba4a5ad4ff669237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Tire.mat using Guid(7676f795b1e49694ba4a5ad4ff669237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef3bb84e5629abb62bd10445d851f5c') in 0.009604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Metal 5.mat
+  artifactKey: Guid(0cb48534647fc304182c67a3c1ed7f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Metal 5.mat using Guid(0cb48534647fc304182c67a3c1ed7f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d14074e3b22c0e4b0fc23134da8cdea') in 0.013996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Glass 1.mat
+  artifactKey: Guid(c42a23f269eebc54d837feea3c4445e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Glass 1.mat using Guid(c42a23f269eebc54d837feea3c4445e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de5e0a234bf637432202fcbaef788b1') in 0.009521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Mesh/New Female.fbx
+  artifactKey: Guid(80847b9f1465c474b848832e511f7b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Mesh/New Female.fbx using Guid(80847b9f1465c474b848832e511f7b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755ba1bcaaa2ecd04c18eb39e27ddbe3') in 0.072626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Gas Station 1.mat
+  artifactKey: Guid(698bd1be1f5d9144987a4ec71018ee83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Gas Station 1.mat using Guid(698bd1be1f5d9144987a4ec71018ee83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4b849559496edfc3adc7141234a92e') in 0.009665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Ceiling.mat
+  artifactKey: Guid(429405940f325ab449305210ee09c13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Ceiling.mat using Guid(429405940f325ab449305210ee09c13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf947cc5469e4d8be9ec8dd391dc0bb') in 0.009111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Metal 2.mat
+  artifactKey: Guid(be141bacf8d70b140bc7b61073114d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Metal 2.mat using Guid(be141bacf8d70b140bc7b61073114d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671732b7ff272611390dfd7ddb49f8d5') in 0.009591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Strap 1.mat
+  artifactKey: Guid(321f32b72da9bcd499b0d63d6bb7b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Strap 1.mat using Guid(321f32b72da9bcd499b0d63d6bb7b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30a0de20af2232fea298c7684c03cfd') in 0.009194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Paint 12.mat
+  artifactKey: Guid(65a9790ae6efeb0459002239ff4e579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Paint 12.mat using Guid(65a9790ae6efeb0459002239ff4e579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8528f3cfab3ccaa471c380431a5f71c0') in 0.014579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Clear.mat
+  artifactKey: Guid(734030e723c7d5a4cbaf2b36a579bd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Clear.mat using Guid(734030e723c7d5a4cbaf2b36a579bd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5d1c80f057e0142fbd015a572d2b17') in 0.013646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Wheel 2.mat
+  artifactKey: Guid(31cc4ff7ea69c05459ea3987461e1230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Wheel 2.mat using Guid(31cc4ff7ea69c05459ea3987461e1230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2728f416b1c38d4d6a7609b29b6fa46b') in 0.009707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Mesh/New Female Hands.fbx
+  artifactKey: Guid(4ef59af9244e9f346a01a94b749eae78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Mesh/New Female Hands.fbx using Guid(4ef59af9244e9f346a01a94b749eae78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42d0ded23dc967a89a14d055401fd04') in 0.090781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Hair 3.mat
+  artifactKey: Guid(0ce49c574d743f44095b6dbcaf06d5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Hair 3.mat using Guid(0ce49c574d743f44095b6dbcaf06d5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719b480b9eebef6dcfda4dbab3038428') in 0.010960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Radiator.mat
+  artifactKey: Guid(b7a66d3d83bf3ba49ad0f6479d529f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Radiator.mat using Guid(b7a66d3d83bf3ba49ad0f6479d529f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f460ae4358da125d959c9f188aa5c4d') in 0.010076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/LCD.mat
+  artifactKey: Guid(c19cf73351e2ac746a5e9cbd1ec64655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/LCD.mat using Guid(c19cf73351e2ac746a5e9cbd1ec64655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67e9c01e6c19477b9615331e3b63058') in 0.009546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Paint 6.mat
+  artifactKey: Guid(3e26371aaa9cd5d4e9750117c199d0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Paint 6.mat using Guid(3e26371aaa9cd5d4e9750117c199d0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779b7a3649be01a81ad7029d97fcdab1') in 0.014985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Vening Machine.mat
+  artifactKey: Guid(3bd112eb0b51e6048a02c40a90f7d327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Vening Machine.mat using Guid(3bd112eb0b51e6048a02c40a90f7d327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7483ded4a22a85ec8c616ef929ede23c') in 0.010018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Wheel.mat
+  artifactKey: Guid(79ecbb83d0e5b9044a68d829d3ff0d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Wheel.mat using Guid(79ecbb83d0e5b9044a68d829d3ff0d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498dc23396a71a63cb6f228452c21294') in 0.009429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Bug Spray.mat
+  artifactKey: Guid(a8a19a9fd23c9bb4a8c1b124a6fbbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Bug Spray.mat using Guid(a8a19a9fd23c9bb4a8c1b124a6fbbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f646eeb91f51eb8af4a7c3680f51b1') in 0.009644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Light 1.mat
+  artifactKey: Guid(de9b1bfa20aa9034ea2a96c37bfa33b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Light 1.mat using Guid(de9b1bfa20aa9034ea2a96c37bfa33b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd843b53617205df0830349b3e277a0c3') in 0.014504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Window.mat
+  artifactKey: Guid(35cafc404f7ff1b4480dca88546aefd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Window.mat using Guid(35cafc404f7ff1b4480dca88546aefd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7270c2600deb04db30823790b618b9') in 0.009332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Concrete 1.mat
+  artifactKey: Guid(a73f521eccb4dfb438d29f55a3d7c7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Materials/Concrete 1.mat using Guid(a73f521eccb4dfb438d29f55a3d7c7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fa998cbb1dba8dc8dac05ab6eb4736') in 0.013993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Mesh/New Male.fbx
+  artifactKey: Guid(657cc197b415bac4daec9d74e407be49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Libraries/Traverse - Low Poly Survival/Contents/Mesh/New Male.fbx using Guid(657cc197b415bac4daec9d74e407be49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1d030ea9426a378bf19d7939ebace7') in 0.093847 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
